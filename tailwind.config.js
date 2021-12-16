@@ -4,7 +4,14 @@ module.exports = {
     './components/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      spacing: {
+        '27rm': '27rem'
+      },
+      gridTemplateRows: {
+        '42': 'repeat(42, minmax(0, 1fr))'
+      }
+    },
   },
   plugins: [],
 }
