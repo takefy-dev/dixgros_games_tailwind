@@ -6,6 +6,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        "red-coins": "#F04439",
+        "yellow-coins": "#F4D92F",
        "board" :'#ced4da',
       },
       borderRadius: {
