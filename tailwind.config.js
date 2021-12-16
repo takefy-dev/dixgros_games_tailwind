@@ -5,6 +5,12 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+       "board" :'#ced4da',
+      },
+      borderRadius: {
+        '30px': "30px",
+      },
       spacing: {
         '27rm': '27rem'
       },
